@@ -9,12 +9,14 @@ from exercise_utils.github_cli import (
     has_repo,
 )
 
+
 __requires_git__ = True
 __requires_github__ = True
 
-REPO_NAME = "samplerepo-company"
+
+REPO_NAME = "samplerepo-books"
 REPO_OWNER = "git-mastery"
-FORK_NAME = "gitmastery-samplerepo-company"
+FORK_NAME = "gitmastery-samplerepo-books"
 
 
 def download(verbose: bool):
